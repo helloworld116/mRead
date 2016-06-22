@@ -9,23 +9,33 @@
 /* Begin PBXBuildFile section */
 		844679ED1D1A7F7C00DF593B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 844679EC1D1A7F7C00DF593B /* main.m */; };
 		844679F01D1A7F7C00DF593B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 844679EF1D1A7F7C00DF593B /* AppDelegate.m */; };
-		844679F31D1A7F7C00DF593B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844679F21D1A7F7C00DF593B /* ViewController.m */; };
 		844679F61D1A7F7C00DF593B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844679F41D1A7F7C00DF593B /* Main.storyboard */; };
 		844679F81D1A7F7C00DF593B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844679F71D1A7F7C00DF593B /* Assets.xcassets */; };
 		844679FB1D1A7F7C00DF593B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844679F91D1A7F7C00DF593B /* LaunchScreen.storyboard */; };
+		84467A041D1A8AA000DF593B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84467A031D1A8AA000DF593B /* FirstViewController.m */; };
+		84467A071D1A8AB100DF593B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84467A061D1A8AB100DF593B /* SecondViewController.m */; };
+		84467A0A1D1A8AC500DF593B /* ImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84467A091D1A8AC500DF593B /* ImageCell.m */; };
+		BD8BCB5D01F03DFC3BA46620 /* libPods-mRead.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F5AA026A45D9ECE56023D90 /* libPods-mRead.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F5AA026A45D9ECE56023D90 /* libPods-mRead.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mRead.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2026FA7BEA91BEB83A642D29 /* Pods-mRead.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mRead.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mRead/Pods-mRead.debug.xcconfig"; sourceTree = "<group>"; };
 		844679E81D1A7F7B00DF593B /* mRead.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mRead.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		844679EC1D1A7F7C00DF593B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		844679EE1D1A7F7C00DF593B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		844679EF1D1A7F7C00DF593B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		844679F11D1A7F7C00DF593B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		844679F21D1A7F7C00DF593B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		844679F51D1A7F7C00DF593B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		844679F71D1A7F7C00DF593B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		844679FA1D1A7F7C00DF593B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		844679FC1D1A7F7C00DF593B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84467A021D1A8AA000DF593B /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		84467A031D1A8AA000DF593B /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		84467A051D1A8AB100DF593B /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		84467A061D1A8AB100DF593B /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		84467A081D1A8AC500DF593B /* ImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCell.h; sourceTree = "<group>"; };
+		84467A091D1A8AC500DF593B /* ImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCell.m; sourceTree = "<group>"; };
+		BA99FD73313EDFA2B8FE3BF4 /* Pods-mRead.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mRead.release.xcconfig"; path = "Pods/Target Support Files/Pods-mRead/Pods-mRead.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD8BCB5D01F03DFC3BA46620 /* libPods-mRead.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +55,8 @@
 			children = (
 				844679EA1D1A7F7C00DF593B /* mRead */,
 				844679E91D1A7F7B00DF593B /* Products */,
+				9CC30CD403D898E58ADD6E11 /* Pods */,
+				8A179FFF2F524B835A08178D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,13 +73,17 @@
 			children = (
 				844679EE1D1A7F7C00DF593B /* AppDelegate.h */,
 				844679EF1D1A7F7C00DF593B /* AppDelegate.m */,
-				844679F11D1A7F7C00DF593B /* ViewController.h */,
-				844679F21D1A7F7C00DF593B /* ViewController.m */,
 				844679F41D1A7F7C00DF593B /* Main.storyboard */,
 				844679F71D1A7F7C00DF593B /* Assets.xcassets */,
 				844679F91D1A7F7C00DF593B /* LaunchScreen.storyboard */,
 				844679FC1D1A7F7C00DF593B /* Info.plist */,
 				844679EB1D1A7F7C00DF593B /* Supporting Files */,
+				84467A021D1A8AA000DF593B /* FirstViewController.h */,
+				84467A031D1A8AA000DF593B /* FirstViewController.m */,
+				84467A051D1A8AB100DF593B /* SecondViewController.h */,
+				84467A061D1A8AB100DF593B /* SecondViewController.m */,
+				84467A081D1A8AC500DF593B /* ImageCell.h */,
+				84467A091D1A8AC500DF593B /* ImageCell.m */,
 			);
 			path = mRead;
 			sourceTree = "<group>";
@@ -79,6 +96,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8A179FFF2F524B835A08178D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F5AA026A45D9ECE56023D90 /* libPods-mRead.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9CC30CD403D898E58ADD6E11 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2026FA7BEA91BEB83A642D29 /* Pods-mRead.debug.xcconfig */,
+				BA99FD73313EDFA2B8FE3BF4 /* Pods-mRead.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +120,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 844679FF1D1A7F7C00DF593B /* Build configuration list for PBXNativeTarget "mRead" */;
 			buildPhases = (
+				B1229B7E8A17C8958F97F3DD /* 📦 Check Pods Manifest.lock */,
 				844679E41D1A7F7B00DF593B /* Sources */,
 				844679E51D1A7F7B00DF593B /* Frameworks */,
 				844679E61D1A7F7B00DF593B /* Resources */,
+				63E0F9EF589F12A25CA8CB7A /* 📦 Embed Pods Frameworks */,
+				BEE3A7F5C77C08ACA34CEABA /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,13 +181,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		63E0F9EF589F12A25CA8CB7A /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mRead/Pods-mRead-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1229B7E8A17C8958F97F3DD /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BEE3A7F5C77C08ACA34CEABA /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mRead/Pods-mRead-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		844679E41D1A7F7B00DF593B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				844679F31D1A7F7C00DF593B /* ViewController.m in Sources */,
+				84467A071D1A8AB100DF593B /* SecondViewController.m in Sources */,
+				84467A0A1D1A8AC500DF593B /* ImageCell.m in Sources */,
 				844679F01D1A7F7C00DF593B /* AppDelegate.m in Sources */,
+				84467A041D1A8AA000DF593B /* FirstViewController.m in Sources */,
 				844679ED1D1A7F7C00DF593B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,7 +301,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -252,7 +339,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -261,6 +348,7 @@
 		};
 		84467A001D1A7F7C00DF593B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2026FA7BEA91BEB83A642D29 /* Pods-mRead.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = mRead/Info.plist;
@@ -272,6 +360,7 @@
 		};
 		84467A011D1A7F7C00DF593B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA99FD73313EDFA2B8FE3BF4 /* Pods-mRead.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = mRead/Info.plist;
@@ -300,6 +389,7 @@
 				84467A011D1A7F7C00DF593B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
