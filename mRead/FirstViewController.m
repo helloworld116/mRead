@@ -8,6 +8,7 @@
 
 #import "FirstViewController.h"
 #import "ImageCell.h"
+#import "SecondViewController.h"
 @interface FirstViewController ()
 @property (nonatomic, strong) NSArray *imageUrls;
 @end
@@ -31,6 +32,12 @@
     NSString *imageUrl = self.imageUrls[indexPath.row];
     [cell setImageUrl:imageUrl];
     return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    //    UIViewController *nextViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"SecondViewController"];
+    UIViewController *nextViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"ThirdViewController"];
+    [self.navigationController pushViewController:nextViewController animated:YES];
 }
 
 #pragma mark - get

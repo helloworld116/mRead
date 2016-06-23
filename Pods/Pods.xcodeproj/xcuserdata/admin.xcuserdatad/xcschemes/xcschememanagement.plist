@@ -14,6 +14,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>TYAttributedLabel.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>YYText.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,7 +32,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>2B6B8A2384494DE863C3D4EFBD9805D5</key>
+		<key>439C0BBB6BC98EF2AB465EB618176E85</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -37,12 +42,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4C5E5EAE99C5C541CA040208EA33A4C9</key>
+		<key>6728E076B86D02BA9F6809AB31FC3151</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6A9AAC6ABA5A00A06A61E5046F90ACB3</key>
+		<key>A954F19606890D8FFFE1B7A7C9067349</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C21F1CD1D5A6DE092A72CB27385A499D</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -27,17 +27,20 @@ PODS:
   - SDWebImage/WebP (3.7.6):
     - libwebp
     - SDWebImage/Core
+  - TYAttributedLabel (2.6.0)
   - YYText (1.0.5)
 
 DEPENDENCIES:
   - SDWebImage/WebP
+  - TYAttributedLabel
   - YYText
 
 SPEC CHECKSUMS:
   libwebp: 68ba2001ba6806ee52837ebd77a551a0b6567e4e
   SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  TYAttributedLabel: da1b63b7c0424680f8a2dcc8e4ab774b1b42a897
   YYText: ac09660c9ccd9b817f409a20caa6f5587444d2ae
 
-PODFILE CHECKSUM: 06ba64ea5a41ef0a11fc2d0d01a02c0cc33882a6
+PODFILE CHECKSUM: 8137c211cc2e80985956f95dda89213baff52fe5
 
 COCOAPODS: 1.0.0
