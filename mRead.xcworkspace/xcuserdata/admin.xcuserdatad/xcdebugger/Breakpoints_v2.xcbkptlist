@@ -184,14 +184,46 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Pods/TYAttributedLabel/TYAttributedLabelDemo/TYAttributedLabel/TYImageCache.m"
-            timestampString = "488367304.206516"
+            filePath = "Pods/YYText/YYText/Component/YYTextLayout.m"
+            timestampString = "488437384.099423"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "108"
-            endingLineNumber = "108"
-            landmarkName = "-saveImageFromURL:thumbImageSize:data:"
+            startingLineNumber = "821"
+            endingLineNumber = "821"
+            landmarkName = "+layoutWithContainer:text:range:"
             landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[YYTextLayout layoutWithContainer:text:range:]"
+                  moduleName = "mRead"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Documents/svn/iOS_Project/mRead/Pods/YYText/YYText/Component/YYTextLayout.m"
+                  timestampString = "488437917.573055"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "821"
+                  endingLineNumber = "821"
+                  offsetFromSymbolStart = "11132">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[YYTextLayout layoutWithContainer:text:range:]"
+                  moduleName = "mRead"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Documents/svn/iOS_Project/mRead/Pods/YYText/YYText/Component/YYTextLayout.m"
+                  timestampString = "488437917.573261"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "821"
+                  endingLineNumber = "821"
+                  offsetFromSymbolStart = "11148">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

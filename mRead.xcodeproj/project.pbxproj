@@ -18,6 +18,8 @@
 		84467A0D1D1B915F00DF593B /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84467A0C1D1B915F00DF593B /* ThirdViewController.m */; };
 		84467A101D1B936F00DF593B /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 84467A0F1D1B936F00DF593B /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		84467A121D1BB49500DF593B /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 84467A111D1BB49500DF593B /* libicucore.tbd */; };
+		84467A151D1CD02700DF593B /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84467A141D1CD02700DF593B /* FourthViewController.m */; };
+		84467A181D1CE87400DF593B /* UIView+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 84467A171D1CE87400DF593B /* UIView+YYAdd.m */; };
 		BD8BCB5D01F03DFC3BA46620 /* libPods-mRead.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F5AA026A45D9ECE56023D90 /* libPods-mRead.a */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +45,11 @@
 		84467A0E1D1B936F00DF593B /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
 		84467A0F1D1B936F00DF593B /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
 		84467A111D1BB49500DF593B /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		84467A131D1CD02700DF593B /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		84467A141D1CD02700DF593B /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		84467A161D1CE87400DF593B /* UIView+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YYAdd.h"; sourceTree = "<group>"; };
+		84467A171D1CE87400DF593B /* UIView+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YYAdd.m"; sourceTree = "<group>"; };
+		84467A191D1CF11200DF593B /* YYKitMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYKitMacro.h; sourceTree = "<group>"; };
 		BA99FD73313EDFA2B8FE3BF4 /* Pods-mRead.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mRead.release.xcconfig"; path = "Pods/Target Support Files/Pods-mRead/Pods-mRead.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,6 +87,9 @@
 		844679EA1D1A7F7C00DF593B /* mRead */ = {
 			isa = PBXGroup;
 			children = (
+				84467A191D1CF11200DF593B /* YYKitMacro.h */,
+				84467A161D1CE87400DF593B /* UIView+YYAdd.h */,
+				84467A171D1CE87400DF593B /* UIView+YYAdd.m */,
 				84467A0E1D1B936F00DF593B /* RegexKitLite.h */,
 				84467A0F1D1B936F00DF593B /* RegexKitLite.m */,
 				844679EE1D1A7F7C00DF593B /* AppDelegate.h */,
@@ -97,6 +107,8 @@
 				84467A091D1A8AC500DF593B /* ImageCell.m */,
 				84467A0B1D1B915F00DF593B /* ThirdViewController.h */,
 				84467A0C1D1B915F00DF593B /* ThirdViewController.m */,
+				84467A131D1CD02700DF593B /* FourthViewController.h */,
+				84467A141D1CD02700DF593B /* FourthViewController.m */,
 			);
 			path = mRead;
 			sourceTree = "<group>";
@@ -248,10 +260,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84467A151D1CD02700DF593B /* FourthViewController.m in Sources */,
 				84467A101D1B936F00DF593B /* RegexKitLite.m in Sources */,
 				84467A071D1A8AB100DF593B /* SecondViewController.m in Sources */,
 				84467A0A1D1A8AC500DF593B /* ImageCell.m in Sources */,
 				84467A0D1D1B915F00DF593B /* ThirdViewController.m in Sources */,
+				84467A181D1CE87400DF593B /* UIView+YYAdd.m in Sources */,
 				844679F01D1A7F7C00DF593B /* AppDelegate.m in Sources */,
 				84467A041D1A8AA000DF593B /* FirstViewController.m in Sources */,
 				844679ED1D1A7F7C00DF593B /* main.m in Sources */,

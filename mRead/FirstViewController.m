@@ -36,7 +36,8 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     //    UIViewController *nextViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"SecondViewController"];
-    UIViewController *nextViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"ThirdViewController"];
+    //    UIViewController *nextViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"ThirdViewController"];
+    UIViewController *nextViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"FourthViewController"];
     [self.navigationController pushViewController:nextViewController animated:YES];
 }
 
